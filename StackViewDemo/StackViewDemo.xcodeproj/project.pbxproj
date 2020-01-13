@@ -13,6 +13,8 @@
 		E09DCAD323CC649B00F0D751 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E09DCAD123CC649B00F0D751 /* Main.storyboard */; };
 		E09DCAD523CC649B00F0D751 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E09DCAD423CC649B00F0D751 /* Assets.xcassets */; };
 		E09DCAD823CC649B00F0D751 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E09DCAD623CC649B00F0D751 /* LaunchScreen.storyboard */; };
+		E09DCAE123CC661200F0D751 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09DCADF23CC661200F0D751 /* TableViewCell.swift */; };
+		E09DCAE223CC661200F0D751 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E09DCAE023CC661200F0D751 /* TableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		E09DCAD423CC649B00F0D751 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E09DCAD723CC649B00F0D751 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E09DCAD923CC649B00F0D751 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E09DCADF23CC661200F0D751 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		E09DCAE023CC661200F0D751 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				E09DCAD423CC649B00F0D751 /* Assets.xcassets */,
 				E09DCAD623CC649B00F0D751 /* LaunchScreen.storyboard */,
 				E09DCAD923CC649B00F0D751 /* Info.plist */,
+				E09DCADF23CC661200F0D751 /* TableViewCell.swift */,
+				E09DCAE023CC661200F0D751 /* TableViewCell.xib */,
 			);
 			path = StackViewDemo;
 			sourceTree = "<group>";
@@ -126,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E09DCAD823CC649B00F0D751 /* LaunchScreen.storyboard in Resources */,
+				E09DCAE223CC661200F0D751 /* TableViewCell.xib in Resources */,
 				E09DCAD523CC649B00F0D751 /* Assets.xcassets in Resources */,
 				E09DCAD323CC649B00F0D751 /* Main.storyboard in Resources */,
 			);
@@ -139,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E09DCAD023CC649B00F0D751 /* ViewController.swift in Sources */,
+				E09DCAE123CC661200F0D751 /* TableViewCell.swift in Sources */,
 				E09DCACC23CC649B00F0D751 /* AppDelegate.swift in Sources */,
 				E09DCACE23CC649B00F0D751 /* SceneDelegate.swift in Sources */,
 			);
