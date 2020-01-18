@@ -10,6 +10,11 @@ import UIKit
 
 final class TableViewCell: UITableViewCell {
 
+    @IBOutlet weak var StackView: UIStackView!
+    
+    @IBOutlet weak var numberLabel: UILabel!
+    @IBOutlet weak var mainLabel: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
   
