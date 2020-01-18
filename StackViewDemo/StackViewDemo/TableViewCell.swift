@@ -18,6 +18,8 @@ final class TableViewCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
   
+        StackView.setCustomSpacing(10.0, after: numberLabel)
+        StackView.setCustomSpacing(30.0, after: mainLabel)
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
